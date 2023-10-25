@@ -4,9 +4,10 @@ It's a simple application created with HTML, CSS, and JAVASCRIPT.
 Please ⭐️ this repo and share it with others
 
 <br>
-## 🔗 Links
 
-> ## Checkout the Website [Web Application](https://gknanhe.github.io/simple_calculator/)
+## 🔗Links
+
+>  Checkout the Website [Web Application](https://gknanhe.github.io/simple_calculator/)
 
 <br/>
 
