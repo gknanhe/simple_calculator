@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+	<script src="https://kit.fontawesome.com/0dc53eee16.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+
+    <section>
+        <div class="calculator-container">
+            <div class="calculator-screen-section">
+                
+                    <div class="toggle-btn-container">
+                      <div class="toggle-btn">
+                        <!-- <div class="toggler"></div> -->
+                       
+                        <i class="fa-regular fa-sun sun"></i>
+                        <i class="fa-regular fa-moon moon"></i>
+                      </div>
+                    </div>
+                    <div class="calculation-container">
+                        <div class="calculation">
+                            <!-- <h4>0</h4> -->
+                            <!-- <p id="display">0 </p> -->
+                            <input type="text">
+                        </div>
+                    </div>
+                    
+                  
+            </div>
+            <div class="calculator-button-section">
+                
+                <div class="row-1  row row-top">
+                    
+                    <button class="ac buttons" data-value="ac" >AC</button>
+                    <button class="opt buttons" data-value="+-">&#43;&#47;&#8722;</button>
+                    <button class="opt buttons" data-value="%">&#37;</button>
+                    <button class="opt buttons" data-value="/">&#247;</button>
+                </div>
+                <div class="row-2 row">
+                    <button class="buttons" data-value="7">7</button>
+                    <button class="buttons" data-value="8">8</button>
+                    <button class="buttons" data-value="9"> 9</button>
+                    <button class="opt buttons" data-value="*">&#215;</button>
+                </div>
+                <div class="row-3 row">
+                    <button class="buttons" data-value="4">4</button>
+                    <button class="buttons" data-value="5">5</button>
+                    <button class="buttons" data-value="6">6</button>
+                    <button class="opt buttons" data-value="-">&#8722;</button>
+                </div>
+                <div class="row-4 row">
+                    <button class="buttons" data-value="1">1</button>
+                    <button class="buttons" data-value="2">2</button>
+                    <button class="buttons" data-value="3">3</button>
+                    <button class="opt buttons" data-value="+">&#43;</button>
+                </div>
+                <div class="row-5 row row-bottom">
+                    <button class="buttons" data-value=".">.</button>
+                    <button class="buttons" data-value="0">0</button>
+                    <button class="buttons back" data-value="back">&#9003;</button>
+                    <button class="opt buttons equal" data-value="=">&#61;</button>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+
+    <script src="calculator.js"></script>
+</body>
+</html>
