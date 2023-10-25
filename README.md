@@ -6,7 +6,7 @@ Please ⭐️ this repo and share it with others
 <br>
 ## 🔗 Links
 
-> ## Checkout the Website [Web Application](http://16.170.173.59/)
+> ## Checkout the Website [Web Application](https://gknanhe.github.io/simple_calculator/)
 
 <br/>
 
